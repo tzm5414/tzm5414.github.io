@@ -1,0 +1,38 @@
+# --- Site Settings ---
+# (These are the main details for your site)
+title: Thant Zin Moe | IT Enthusiast & Mentor
+description: Professional Portfolio and Lecture Blog of Thant Zin Moe.
+baseurl: "" # keep this blank for your main site
+url: "https://tzm5414.github.io" # Your site's live address
+
+# --- Theme Settings ---
+# (This installs and configures the "Minimal Mistakes" theme)
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" # "default" is a clean, light theme.
+
+# --- Your Personal Info (for the sidebar) ---
+author:
+  name: "Mr. Thant Zin Moe"
+  avatar: # You can add a URL to a profile picture here later
+  bio: "IT Enthusiast, Cybersecurity Expert, Lecturer, and Thesis Mentor."
+  location: "Kuala Lumpur, Malaysia"
+  links:
+    - label: "Email Me"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:thantzinmoe5414@gmail.com" # (REQUIRED: Change this to your email)
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tzm5414"
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: # (Add your LinkedIn URL when ready)
+
+# --- Site Navigation ---
+# (These will be the links in your top navigation bar)
+main_nav:
+  - title: "About Me"
+    url: /about/
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Blog / Lectures"
+    url: /blog/
