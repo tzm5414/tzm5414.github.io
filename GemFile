@@ -1,0 +1,13 @@
+source "https://rubygems.org"
+
+# This installs Jekyll
+gem "jekyll", "~> 4.3"
+
+# This is the Minimal Mistakes theme
+gem "minimal-mistakes-jekyll"
+
+# This is the plugin that was missing!
+gem "jekyll-include-cache"
+
+# This is required for Jekyll 4+
+gem "webrick"
