@@ -7,7 +7,7 @@ url: "https://tzm5414.github.io" # Your site's live address
 
 # --- Theme Settings ---
 # (This installs and configures the "Minimal Mistakes" theme)
-remote_theme: "mmistakes/minimal-mistakes"
+theme: "minimal-mistakes-jekyll"
 minimal_mistakes_skin: "default" # "default" is a clean, light theme.
 
 # --- Your Personal Info (for the sidebar) ---
@@ -36,3 +36,7 @@ main_nav:
     url: /portfolio/
   - title: "Blog / Lectures"
     url: /blog/
+
+# --- Plugins ---
+plugins:
+  - jekyll-include-cache 
