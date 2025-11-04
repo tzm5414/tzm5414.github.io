@@ -17,6 +17,9 @@ jobs:
         with:
           ruby-version: '3.1' # Use a modern Ruby version
           bundler-cache: true # Caches gems
+          
+      - name: List files in workspace
+        run: ls -la
 
       - name: Build with Jekyll
         run: bundle exec jekyll build
